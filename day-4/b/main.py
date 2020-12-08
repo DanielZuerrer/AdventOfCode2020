@@ -1,7 +1,6 @@
 import re
 
 with open('input.txt', 'r') as f:
-# with open('input.txt', 'r') as f:
     input = f.read()
 
 double_space_separated = input.replace('\n', ' ')
